@@ -1,38 +1,55 @@
-.navbar{
-
+.logo {
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+}
+.spinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  width: 100%;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
 }
 
-
-
-.logo{
-    height: 30px;
-    width: 30px;
-    margin-left: 10px;
+.cards-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-.cards-list{
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 5px;
+.repo-card {
+  width: 15%;
+  height: 100px;
+  margin: 10px;
 }
 
-.repo-card{
-    width:200px;
-    height:100px;
-    margin: 10px;
+.repo-card-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.repo-card-footer{
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-/* .card-language{
-    display:flex;
-    justify-content: flex-end;
-    width: 30px;
-} */
+.pagination-button {
+  margin: 10px;
+  border: 2px solid goldenrod;
+  border-radius: 5px;
+}
+
+.toaster{
+  display: flex;
+  justify-content: flex-end;
+  z-index: 1000;
+  margin: 10px;
+}
