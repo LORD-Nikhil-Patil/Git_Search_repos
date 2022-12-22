@@ -1,5 +1,5 @@
 - Make sure you are running at least Node v16.14.2
 - Run git clone https://github.com/nikhil8dev/Git_Search_repos.git inside you repository
-- Then go to the project cd <YOUR DIRECTORY>
+- Then go to the project cd YOUR DIRECTORY
 - Run npm install
 - Navigate to http://localhost:3000/
